@@ -78,8 +78,9 @@ fun ProgressCard(
                     Spacer(modifier = Modifier.height(12.dp))
 
                     if (progress > 0f) {
+                        @Suppress("DEPRECATION")
                         LinearProgressIndicator(
-                            progress = { progress },
+                            progress = progress,
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .height(8.dp),

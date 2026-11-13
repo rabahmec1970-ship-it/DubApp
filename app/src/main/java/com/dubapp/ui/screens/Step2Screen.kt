@@ -32,7 +32,7 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FilterChipDefaults
-import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Divider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -70,6 +70,7 @@ private val languageFlags = mapOf(
     Language.ITALIAN to "🇮🇹"
 )
 
+@Suppress("DEPRECATION")
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun Step2Screen(
@@ -236,7 +237,7 @@ fun Step2Screen(
 
                         state.subtitles.take(3).forEachIndexed { index, entry ->
                             if (index > 0) {
-                                HorizontalDivider(
+                                Divider(
                                     modifier = Modifier.padding(vertical = 6.dp),
                                     color = MaterialTheme.colorScheme.outlineVariant
                                 )
@@ -420,7 +421,7 @@ fun Step2Screen(
 
                                 state.translatedSubtitles.take(3).forEachIndexed { index, sub ->
                                     if (index > 0) {
-                                        HorizontalDivider(
+                                        Divider(
                                             modifier = Modifier.padding(vertical = 8.dp),
                                             color = MaterialTheme.colorScheme.outlineVariant
                                         )
