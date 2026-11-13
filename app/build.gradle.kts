@@ -48,7 +48,7 @@ dependencies {
 
     implementation("androidx.navigation:navigation-compose:2.7.6")
 
-    implementation("com.arthenica:ffmpeg-kit-full:6.0-2")
+    implementation("dev.ffmpegkit-maintained:ffmpeg-kit-full-gpl:8.1.9")
     implementation("com.google.mlkit:translate:17.0.2")
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
