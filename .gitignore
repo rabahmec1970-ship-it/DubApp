@@ -1,0 +1,22 @@
+# DubApp Build Artifacts
+*.apk
+*.aab
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/
+
+# IDE
+.idea/
+*.iml
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+*.bak
+*.swp

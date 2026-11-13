@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DubApp - دبلجة الفيديو</string>
+
+    <!-- Step Labels -->
+    <string name="step_1_label">الخطوة 1: اختيار الفيديو</string>
+    <string name="step_2_label">الخطوة 2: الترجمة والدبلجة</string>
+    <string name="step_3_label">الخطوة 3: التصدير والحفظ</string>
+
+    <!-- Buttons -->
+    <string name="btn_select_video">اختيار فيديو</string>
+    <string name="btn_start_dubbing">بدء الدبلجة</string>
+    <string name="btn_export">تصدير الفيديو</string>
+    <string name="btn_save">حفظ</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="btn_next">التالي</string>
+    <string name="btn_back">رجوع</string>
+    <string name="btn_play">تشغيل</string>
+    <string name="btn_pause">إيقاف مؤقت</string>
+    <string name="btn_record">تسجيل</string>
+    <string name="btn_stop_record">إيقاف التسجيل</string>
+    <string name="btn_retry">إعادة المحاولة</string>
+
+    <!-- Language Names -->
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_english">الإنجليزية</string>
+    <string name="lang_french">الفرنسية</string>
+    <string name="lang_spanish">الإسبانية</string>
+    <string name="lang_german">الألمانية</string>
+    <string name="lang_turkish">التركية</string>
+    <string name="lang_chinese">الصينية</string>
+    <string name="lang_japanese">اليابانية</string>
+    <string name="lang_korean">الكورية</string>
+    <string name="lang_hindi">الهندية</string>
+
+    <!-- Labels -->
+    <string name="label_source_language">لغة المصدر</string>
+    <string name="label_target_language">لغة الهدف</string>
+    <string name="label_video_preview">معاينة الفيديو</string>
+    <string name="label_no_video_selected">لم يتم اختيار فيديو</string>
+    <string name="label_select_language">اختر اللغة</string>
+
+    <!-- Progress Messages -->
+    <string name="progress_extracting_audio">جاري استخراج الصوت…</string>
+    <string name="progress_translating">جاري الترجمة…</string>
+    <string name="progress_dubbing">جاري الدبلجة…</string>
+    <string name="progress_merging">جاري دمج الصوت مع الفيديو…</string>
+    <string name="progress_exporting">جاري تصدير الفيديو…</string>
+    <string name="progress_complete">تمت العملية بنجاح!</string>
+    <string name="progress_failed">فشلت العملية، يرجى المحاولة مرة أخرى</string>
+    <string name="progress_downloading_model">جاري تحميل نموذج الترجمة…</string>
+
+    <!-- Permissions -->
+    <string name="permission_storage_title">إذن الوصول للتخزين</string>
+    <string name="permission_storage_message">يحتاج التطبيق إلى إذن الوصول للتخزين لاختيار وحفظ الفيديوهات</string>
+    <string name="permission_microphone_title">إذن الميكروفون</string>
+    <string name="permission_microphone_message">يحتاج التطبيق إلى إذن الميكروفون لتسجيل الصوت</string>
+</resources>
